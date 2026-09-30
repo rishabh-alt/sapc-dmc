@@ -4,7 +4,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Rishabh Deol — SAPC Digital Media Coordinator</title>
-  <meta name="description" content="Campaign site for the Students' Association of Portage College Digital Media Coordinator role. Lac La Biche campus." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -37,7 +36,8 @@
     .card { background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:1.1rem 1.15rem; }
     .samples { grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
     .sample { padding:0 0 1rem; overflow:hidden; }
-    .sample img { width:100%; height:340px; object-fit:cover; object-position:top; border-radius:12px 12px 0 0; }
+    .sample img, .sample video { width:100%; height:340px; object-fit:cover; object-position:top; border-radius:12px 12px 0 0; background:#e8e4db; }
+    .reel video { width:100%; max-height:520px; border-radius:12px; background:#111; }
     .sample .pad { padding:.9rem 1rem 0; }
     footer { background:var(--navy); color:#e8eef6; padding:2.4rem 0 2.8rem; margin-top:1rem; }
     footer h2, footer a { color:#fff; }
@@ -79,25 +79,31 @@
         <h2>What I would post in week one</h2>
         <div class="grid samples" style="margin-top:1.2rem">
           <article class="card sample">
-            <img src="assets/claims-1.jpg" alt="How to submit an SAPC health and dental claim" />
+            <img src="claims-1.jpg" alt="How to submit an SAPC health and dental claim" />
             <div class="pad"><span class="sample-tag">Carousel · Health & Dental</span><h3>Claim in under 3 minutes</h3><p>Sends students to StudyWell / sapcbenefits.ca instead of guessing the process in a DM thread.</p></div>
           </article>
           <article class="card sample">
-            <img src="assets/claims-2.jpg" alt="Three claim steps and Group 62279" />
+            <img src="claims-2.jpg" alt="Three claim steps and Group 62279" />
             <div class="pad"><span class="sample-tag">Carousel · Slide 2</span><h3>Group 62279 + Student ID</h3><p>The three facts students need: the app, the group number, a clear receipt photo.</p></div>
           </article>
           <article class="card sample">
-            <img src="assets/claims-3.jpg" alt="Support slide with lounge, phone, and @mysapc" />
+            <img src="claims-3.jpg" alt="Support slide with lounge, phone, and @mysapc" />
             <div class="pad"><span class="sample-tag">Carousel · Slide 3</span><h3>Lounge, phone, or DM</h3><p>Opt-out and stuck-claim traffic belongs with SAPC. Office line is on the graphic.</p></div>
           </article>
           <article class="card sample">
-            <img src="assets/midterm-chill.jpg" alt="SAPC Midterm Chill event poster" />
+            <img src="midterm-chill.jpg" alt="SAPC Midterm Chill event poster" />
             <div class="pad"><span class="sample-tag">Event poster</span><h3>SAPC Midterm Chill</h3><p>Lounge event, not athletics branding. Thursday window matches midday campus traffic.</p></div>
           </article>
           <article class="card sample">
-            <img src="assets/tims-giveaway.jpg" alt="Tag your study crew giveaway graphic" />
+            <img src="tims-giveaway.jpg" alt="Tag your study crew giveaway graphic" />
             <div class="pad"><span class="sample-tag">Giveaway post</span><h3>Tag your study crew</h3><p>Follow + tag + story share. Friday draw. Active Portage students only.</p></div>
           </article>
+        </div>
+        <div class="card reel" style="margin-top:1rem">
+          <span class="sample-tag">B-roll · Midterm Chill reel bed</span>
+          <h3>Lounge study clip</h3>
+          <p>B-roll only — no fake talking head. Overlay captions in Canva: Midterms hitting hard / Free coffee at the lounge / Thursday 11:30.</p>
+          <video controls playsinline muted loop poster="midterm-chill.jpg" src="lounge-broll.mp4">Your browser does not support video.</video>
         </div>
         <div class="card" style="margin-top:1rem">
           <h3>Caption for the giveaway</h3>
